@@ -1,0 +1,48 @@
+{
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
+    "python.testing.pytestEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyArgs": [
+        "--ignore-missing-imports",
+        "--strict",
+        "--warn-return-any",
+        "--warn-unreachable",
+        "--follow-imports=silent",
+        "--show-column-numbers"
+    ],
+    "[python]": {
+        "editor.rulers": [
+            120
+        ],
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "files.trimTrailingWhitespace": true,
+    },
+    "[restructuredtext]": {
+        "editor.rulers": [
+            120
+        ],
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "files.trimTrailingWhitespace": true,
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 120,
+    },
+    "restructuredtext.preview.name": "docutil",
+    "restructuredtext.linter.extraArgs": [
+        "--ignore D002",
+        "--ignore D004",
+        "--max-line-length=120"
+    ],
+    "autoDocstring.docstringFormat": "google",
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+}

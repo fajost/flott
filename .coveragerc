@@ -1,0 +1,13 @@
+[run]
+branch = true
+omit =
+    # ignore test files
+    **/*_test.py
+    **/conftest.py
+    # omit init and main files
+    **/__init__.py
+    **/__main__.py
+
+[report]
+exclude_lines =
+    pragma: no cover

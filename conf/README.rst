@@ -1,0 +1,1 @@
+This directory contains all configuration files used in the process. These are different to files in ``data`` in that they are usually inputted by the developer, e.g., the parameter settings to a model.
