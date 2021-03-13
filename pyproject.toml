@@ -23,6 +23,7 @@ pytest-cov = "^2.11.1"
 sphinx = "^3.5.2"
 rstcheck = "^3.3.1"
 docutils = "^0.16"
+ipython = "^7.21.0"
 
 [tool.black]
 line-length = 120
