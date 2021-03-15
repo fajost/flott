@@ -44,10 +44,14 @@
         "--max-line-length=120"
     ],
     "autoDocstring.docstringFormat": "google",
+    "[bat]": {
+        "files.eol": "\r\n"
+    },
     "files.associations": {
         "*.dvc": "yaml",
         "dvc.lock": "yaml"
     },
     "editor.formatOnSave": true,
     "files.eol": "\n",
+    "files.insertFinalNewline": true
 }
