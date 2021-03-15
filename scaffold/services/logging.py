@@ -5,6 +5,11 @@ from typing import Optional
 
 
 def init_logging(logfile: Optional[Path] = None) -> None:
+    """Configure logging to file and stdout.
+
+    Args:
+        logfile: Location of logfile. Defaults to "run.log".
+    """
     if not logfile:
         logfile_path = Path.cwd()
         while not (logfile_path / "pyproject.toml").exists():
