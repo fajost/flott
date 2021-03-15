@@ -43,6 +43,10 @@
         "--max-line-length=120"
     ],
     "autoDocstring.docstringFormat": "google",
+    "files.associations": {
+        "*.dvc": "yaml",
+        "dvc.lock": "yaml"
+    },
     "editor.formatOnSave": true,
     "files.eol": "\n",
 }
