@@ -37,6 +37,7 @@
         "editor.wordWrapColumn": 120,
     },
     "restructuredtext.preview.name": "docutil",
+    "restructuredtext.confPath": "${workspaceFolder}\\docs",
     "restructuredtext.linter.extraArgs": [
         "--ignore D002",
         "--ignore D004",
