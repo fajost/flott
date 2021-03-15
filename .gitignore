@@ -133,6 +133,4 @@ htmlcov*/
 ow*.html
 *.zip
 *.gz
-*.csv
-!tests/data/**/*.csv
 .pyspy-reports
