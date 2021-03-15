@@ -36,7 +36,7 @@
         "editor.wordWrap": "bounded",
         "editor.wordWrapColumn": 120,
     },
-    "restructuredtext.preview.name": "docutil",
+    "restructuredtext.preview.name": "sphinx",
     "restructuredtext.confPath": "${workspaceFolder}\\docs",
     "restructuredtext.linter.extraArgs": [
         "--ignore D002",

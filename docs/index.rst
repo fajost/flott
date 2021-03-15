@@ -2,10 +2,8 @@ Welcome to scaffold's documentation!
 ====================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
+   pipelines
+   services
 
 Indices and tables
 ==================
