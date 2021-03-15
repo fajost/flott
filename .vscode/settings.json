@@ -38,6 +38,7 @@
     },
     "restructuredtext.preview.name": "sphinx",
     "restructuredtext.confPath": "${workspaceFolder}\\docs",
+    "restructuredtext.languageServer.disabled": true,
     "restructuredtext.linter.extraArgs": [
         "--ignore D002",
         "--ignore D004",
