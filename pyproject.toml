@@ -37,7 +37,7 @@ multi_line_output = 3
 use_parentheses = true
 
 [tool.pytest.ini_options]
-addopts = "--cov-config=.coveragerc --cov=src --cov-report term-missing:skip-covered"
+addopts = "--cov-config=.coveragerc --cov=scaffold --cov-report term-missing:skip-covered"
 filterwarnings = [
   "error::Warning", # If not ignored below, any warnings should fail tests
   "ignore: the imp module is deprecated:DeprecationWarning", # from h2o/utils/shared_utils.py:12
