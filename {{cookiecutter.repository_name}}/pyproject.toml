@@ -1,8 +1,8 @@
 [tool.poetry]
-authors = ["Firstname Lastname <firstname.lastname@oliverwyman.com>"]
-description = ""
-name = "scaffold"
-version = "0.1.0"
+authors = ["{{ cookiecutter.full_name }} <{{ cookiecutter.email }}>"]
+description = "{{ cookiecutter.project_description }}"
+name = "{{ cookiecutter.project_name }}"
+version = "{{ cookiecutter.project_version }}"
 
 [tool.poetry.dependencies]
 click = "^7.1.2"
@@ -38,7 +38,7 @@ multi_line_output = 3
 use_parentheses = true
 
 [tool.pytest.ini_options]
-addopts = "--cov-config=.coveragerc --cov=scaffold --cov-report term-missing:skip-covered"
+addopts = "--cov-config=.coveragerc --cov={{ cookiecutter.package_name }} --cov-report term-missing:skip-covered"
 filterwarnings = [
   "error::Warning", # If not ignored below, any warnings should fail tests
   "ignore: the imp module is deprecated:DeprecationWarning", # from h2o/utils/shared_utils.py:12

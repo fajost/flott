@@ -17,10 +17,10 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "scaffold"
-copyright = "2021, Firstname Lastname"
-author = "Firstname Lastname"
-release = "0.1.0"
+project = "{{ cookiecutter.package_name }}"
+copyright = "2021, {{ cookiecutter.full_name }}"
+author = "{{ cookiecutter.full_name }}"
+release = "{{ cookiecutter.version }}"
 
 
 # -- General configuration ---------------------------------------------------

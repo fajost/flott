@@ -1,0 +1,10 @@
+{
+    "full_name": "",
+    "email": "",
+    "project_name": "",
+    "project_description": "",
+    "project_version": "0.1.0",
+    "repository_name": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "init_poetry": "y"
+}
