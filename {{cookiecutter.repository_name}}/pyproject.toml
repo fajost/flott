@@ -9,7 +9,7 @@ click = "^7.1.2"
 openpyxl = "^3.0.7"
 pandas = "^1.2.3"
 pyarrow = "^3.0.0"
-python = "^3.8.5"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b1"
