@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "{{ cookiecutter.package_name }}"
+project = "{{ cookiecutter.project_name }}"
 copyright = "2021, {{ cookiecutter.full_name }}"
 author = "{{ cookiecutter.full_name }}"
 release = "{{ cookiecutter.version }}"
